@@ -5,4 +5,59 @@ html,body{
 header{
     height: 103px;
     background-color: #22181C;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
 }
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.logo{
+    margin: 20px;
+}
+.menu{
+    margin: 20px;
+    color: #C69861;
+}
+
+.info{
+    height: 20vh;
+    text-align: center;
+}
+
+.subtext-info{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.quality-assurance{
+    background-color: #22181C;
+    height:25vh;
+}
+.assurance-title{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+.tests-container{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    border: 1px solid white;
+}
+.tests-container p{
+    width: fit-content;
+
+}
+
